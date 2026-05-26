@@ -1,0 +1,31 @@
+# Business Insights
+
+1. Sci-Fi and Action movies received higher average ratings compared to other genres.
+
+2. Movies with ratings above 8.5 are more popular among viewers.
+
+3. Recent movies released after 2015 show higher audience engagement.
+
+4. Genre-based analysis helps identify audience preferences and trending categories.
+
+5. Highly reviewed movies can be recommended to new users.
+
+6. Aggregation queries help generate analytical reports quickly.
+
+7. Reviewer activity analysis helps identify active users in the system.
+
+8. MongoDB efficiently stores unstructured movie review data using documents.
+
+9. Query filtering improves movie search and recommendation processes.
+
+10. Ratings and reviews can help improve movie recommendation systems.
+
+11. The database structure allows flexible storage of movie information.
+
+12. Analysis of ratings helps identify successful movie categories.
+
+13. NoSQL databases simplify handling large amounts of review data.
+
+14. Movie popularity trends can be analyzed using MongoDB queries.
+
+15. The project demonstrates efficient data storage, retrieval, and analytics using MongoDB and Python.
