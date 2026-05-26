@@ -1,0 +1,103 @@
+
+[
+    {
+        "movie_id": 1,
+        "title": "Inception",
+        "genre": "Sci-Fi",
+        "release_year": 2010,
+        "rating": 9.0,
+        "review": "Excellent science fiction movie",
+        "reviewer": "Arun"
+    },
+
+    {
+        "movie_id": 2,
+        "title": "Interstellar",
+        "genre": "Sci-Fi",
+        "release_year": 2014,
+        "rating": 9.2,
+        "review": "Amazing space exploration story",
+        "reviewer": "Priya"
+    },
+
+    {
+        "movie_id": 3,
+        "title": "Joker",
+        "genre": "Drama",
+        "release_year": 2019,
+        "rating": 8.5,
+        "review": "Outstanding performance and story",
+        "reviewer": "Rahul"
+    },
+
+    {
+        "movie_id": 4,
+        "title": "Avengers Endgame",
+        "genre": "Action",
+        "release_year": 2019,
+        "rating": 8.8,
+        "review": "Great superhero climax",
+        "reviewer": "Sneha"
+    },
+
+    {
+        "movie_id": 5,
+        "title": "The Dark Knight",
+        "genre": "Action",
+        "release_year": 2008,
+        "rating": 9.3,
+        "review": "Best Batman movie",
+        "reviewer": "Kavin"
+    },
+
+    {
+        "movie_id": 6,
+        "title": "3 Idiots",
+        "genre": "Comedy",
+        "release_year": 2009,
+        "rating": 8.9,
+        "review": "Inspirational and entertaining",
+        "reviewer": "Meena"
+    },
+
+    {
+        "movie_id": 7,
+        "title": "Parasite",
+        "genre": "Thriller",
+        "release_year": 2019,
+        "rating": 8.6,
+        "review": "Unique social thriller",
+        "reviewer": "Divya"
+    },
+
+    {
+        "movie_id": 8,
+        "title": "Titanic",
+        "genre": "Romance",
+        "release_year": 1997,
+        "rating": 8.0,
+        "review": "Classic love story",
+        "reviewer": "Vikram"
+    },
+
+    {
+        "movie_id": 9,
+        "title": "Doctor Strange",
+        "genre": "Fantasy",
+        "release_year": 2016,
+        "rating": 7.9,
+        "review": "Visual effects were amazing",
+        "reviewer": "Anjali"
+    },
+
+    {
+        "movie_id": 10,
+        "title": "Bahubali",
+        "genre": "Historical",
+        "release_year": 2015,
+        "rating": 8.7,
+        "review": "Epic Indian movie",
+        "reviewer": "Rohit"
+    }
+]
+

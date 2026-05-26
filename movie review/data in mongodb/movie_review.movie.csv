@@ -1,0 +1,11 @@
+_id,movie_id,title,genre,release_year,rating,review,reviewer
+6a154370086f07ffccc3e9f0,1,Inception,Sci-Fi,2010,9,Excellent science fiction movie,Arun
+6a154370086f07ffccc3e9f1,2,Interstellar,Sci-Fi,2014,9.2,Amazing space exploration story,Priya
+6a154370086f07ffccc3e9f2,3,Joker,Drama,2019,8.5,Outstanding performance and story,Rahul
+6a154370086f07ffccc3e9f3,4,Avengers Endgame,Action,2019,8.8,Great superhero climax,Sneha
+6a154370086f07ffccc3e9f4,5,The Dark Knight,Action,2008,9.3,Best Batman movie,Kavin
+6a154370086f07ffccc3e9f5,6,3 Idiots,Comedy,2009,8.9,Inspirational and entertaining,Meena
+6a154370086f07ffccc3e9f6,7,Parasite,Thriller,2019,8.6,Unique social thriller,Divya
+6a154370086f07ffccc3e9f7,8,Titanic,Romance,1997,8,Classic love story,Vikram
+6a154370086f07ffccc3e9f8,9,Doctor Strange,Fantasy,2016,7.9,Visual effects were amazing,Anjali
+6a154370086f07ffccc3e9f9,10,Bahubali,Historical,2015,8.7,Epic Indian movie,Rohit
