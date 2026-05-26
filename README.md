@@ -1,109 +1,24 @@
 MongoDB Movie Review Database Project
 Project Description
 
-The MongoDB Movie Review Database Project is a NoSQL database application developed using MongoDB and Python. The project stores movie details, genres, ratings, reviews, and reviewer information using collections and documents. It demonstrates CRUD operations, query operators, aggregation pipelines, and Python integration using the pymongo library.
+The MongoDB Movie Review Database Project is a NoSQL database application developed using MongoDB and Python. The project stores movie details such as title, genre, release year, ratings, reviews, and reviewer information using MongoDB collections and documents. It demonstrates the implementation of CRUD operations, query filtering, aggregation pipelines, and Python integration using the pymongo library. The project helps manage and analyze movie review data efficiently.
 
 Technologies Used
-MongoDB
-MongoDB Compass
-Python
-pymongo library
-Visual Studio Code
+
+The technologies used in this project are MongoDB, MongoDB Compass, Python, the pymongo library, and Visual Studio Code.
+
 Database Details
-Database Name
-movie_review_db
-Collection Name
-movies
+
+The database used in this project is movie_review_db, and the collection name is movies. Each document in the collection contains movie ID, title, genre, release year, rating, review, and reviewer details.
+
 Features
-Stores movie reviews and ratings
-Uses MongoDB collections and documents
-Performs CRUD operations
-Supports query filtering and aggregation
-Integrates Python with MongoDB using pymongo
-Handles unstructured movie data efficiently
-Collection Structure
 
-Each document contains:
+This project stores and manages movie review data using MongoDB collections and documents. It supports CRUD operations such as inserting, reading, updating, and deleting movie records. The project also performs query filtering and aggregation analysis to generate meaningful insights from the stored data. Python integration using pymongo helps automate database operations efficiently.
 
-Movie ID
-Movie Title
-Genre
-Release Year
-Rating
-Review
-Reviewer Name
-Sample Document
-{
-    "movie_id": 1,
-    "title": "Inception",
-    "genre": "Sci-Fi",
-    "release_year": 2010,
-    "rating": 9.0,
-    "review": "Excellent science fiction movie",
-    "reviewer": "Arun"
-}
-Python Connection
-from pymongo import MongoClient
+Python Integration
 
-client = MongoClient(
-    "mongodb://localhost:27017/"
-)
+Python is connected to MongoDB using the MongoClient provided by the pymongo library. The application connects to the local MongoDB server using mongodb://localhost:27017/ and performs database operations directly from Python programs.
 
-db = client["movie_review_db"]
-
-collection = db["movies"]
-
-print("MongoDB Connected Successfully")
-CRUD Operations
-Create
-collection.insert_one({
-    "movie_id": 11,
-    "title": "Avatar",
-    "genre": "Sci-Fi",
-    "rating": 8.4
-})
-Read
-for movie in collection.find():
-    print(movie)
-Update
-collection.update_one(
-    {"title": "Titanic"},
-    {"$set": {"rating": 8.5}}
-)
-Delete
-collection.delete_one(
-    {"title": "Doctor Strange"}
-)
-Query Operations
-Find Movies with Rating Greater Than 8.5
-for movie in collection.find(
-    {"rating": {"$gt": 8.5}}
-):
-    print(movie)
-Find Movies by Genre
-for movie in collection.find(
-    {"genre": "Action"}
-):
-    print(movie)
-Aggregation Pipeline
-Average Rating by Genre
-pipeline = [
-{
-    "$group":
-    {
-        "_id": "$genre",
-        "average_rating":
-        {"$avg": "$rating"}
-    }
-}
-]
-
-for result in collection.aggregate(pipeline):
-    print(result)
 Business Insights
-Sci-Fi and Action movies have higher average ratings.
-Highly rated movies are more popular among users.
-Genre analysis helps identify audience preferences.
-Aggregation queries help generate analytical reports.
-MongoDB efficiently handles document-based movie data.
-Ratings and reviews improve recommendation systems
+
+The project helps identify highly rated movies, popular genres, audience interests, and reviewer activity. Analysis of ratings and genres helps understand user preferences and improves recommendation systems. Aggregation operations help generate analytical reports quickly and efficiently.
